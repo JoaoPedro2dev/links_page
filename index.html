@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Pedro — Desenvolvedor Front-End</title>
+    <meta
+      name="description"
+      content="João Pedro, freelancer e desenvolvedor Front-End. Portfólio, projetos e redes sociais."
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="backdrop" aria-hidden="true">
+      <div class="aurora aurora--one"></div>
+      <div class="aurora aurora--two"></div>
+      <div class="aurora aurora--three"></div>
+      <div class="grain"></div>
+    </div>
+
+    <main class="page">
+      <div class="card-stack">
+        <header class="profile" data-reveal>
+          <div class="avatar-ring">
+            <div
+              class="avatar"
+              role="img"
+              aria-label="Foto de perfil de João Pedro"
+            >
+              <img src="profile-img.webp" alt="" />
+            </div>
+
+            <a
+              class="whatsapp-badge"
+              href="https://wa.me/5514991080632?text=Olá!%20quero%20conversar%20sobre%20um%20projeto"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Conversar no WhatsApp — enviar mensagem sobre um projeto"
+            >
+              <i class="bi bi-whatsapp" aria-hidden="true"></i>
+            </a>
+          </div>
+
+          <h1 class="name">João Pedro</h1>
+          <p class="role">
+            Freelancer
+            <span class="dot" aria-hidden="true">•</span> Desenvolvedor
+            Front-End
+          </p>
+          <p class="tagline">Criando experiências digitais modernas.</p>
+        </header>
+
+        <nav class="links" aria-label="Links de redes sociais e portfólio">
+          <a
+            class="link-card link-card--blue"
+            data-reveal
+            href="https://www.cursoemvideo.com/cursos"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir website — Conheça o curso em vídeo"
+          >
+            <span class="link-icon" aria-hidden="true">
+              <i class="bi bi-globe2"></i>
+            </span>
+            <span class="link-text">
+              <span class="link-title">Curso em vídeo</span>
+              <span class="link-desc">Todo programador deveria conhecer</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">
+              <i class="bi bi-arrow-up-right"></i>
+            </span>
+            <span class="glow" aria-hidden="true"></span>
+          </a>
+
+          <a
+            class="link-card link-card--violet"
+            data-reveal
+            href="https://www.linkedin.com/in/jo%C3%A3o-pedro-amorin/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir LinkedIn — Minha carreira profissional"
+          >
+            <span class="link-icon" aria-hidden="true">
+              <i class="bi bi-linkedin"></i>
+            </span>
+            <span class="link-text">
+              <span class="link-title">LinkedIn</span>
+              <span class="link-desc">Minha carreira profissional</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">
+              <i class="bi bi-arrow-up-right"></i>
+            </span>
+            <span class="glow" aria-hidden="true"></span>
+          </a>
+
+          <a
+            class="link-card link-card--teal"
+            data-reveal
+            href="https://github.com/JoaoPedro2dev"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir GitHub — Projetos Open Source"
+          >
+            <span class="link-icon" aria-hidden="true">
+              <i class="bi bi-github"></i>
+            </span>
+            <span class="link-text">
+              <span class="link-title">GitHub</span>
+              <span class="link-desc">Projetos Open Source</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">
+              <i class="bi bi-arrow-up-right"></i>
+            </span>
+            <span class="glow" aria-hidden="true"></span>
+          </a>
+
+          <a
+            class="link-card link-card--rose"
+            data-reveal
+            href="https://www.instagram.com/joaopedroa01/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="Abrir Instagram — Minha rede social"
+          >
+            <span class="link-icon" aria-hidden="true">
+              <i class="bi bi-instagram"></i>
+            </span>
+            <span class="link-text">
+              <span class="link-title">Instagram</span>
+              <span class="link-desc">Minha rede social</span>
+            </span>
+            <span class="link-arrow" aria-hidden="true">
+              <i class="bi bi-arrow-up-right"></i>
+            </span>
+            <span class="glow" aria-hidden="true"></span>
+          </a>
+        </nav>
+
+        <footer class="footer" data-reveal>
+          <p>
+            &copy; <span id="year"></span> João Pedro. Feito com atenção aos
+            detalhes.
+          </p>
+        </footer>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
